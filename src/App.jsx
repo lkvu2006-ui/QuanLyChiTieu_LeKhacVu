@@ -1,3 +1,4 @@
+import "./firebase/config"; // Ket noi Firebase Database & Auth
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import { AuthProvider, useAuth } from "./context/AuthContext";
 import Dashboard from "./pages/Dashboard";
